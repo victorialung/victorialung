@@ -1,0 +1,97 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+}
+
+/* https://material.io/color/#!/?view.left=0&view.right=0&primary.color=FAFAFA&secondary.color=9FA8DA&secondary.text.color=212121 */
+
+/* palette*/
+
+.ptext-color {
+  color: #424242 !important;
+}
+
+.stext-color {
+  color: #fafafa !important;
+}
+
+.primary-color {
+  background-color: #fafafa !important;
+}
+
+.plight-color {
+  background-color: #ffffff !important;
+}
+
+.pdark-color {
+  background-color: #c7c7c7 !important;
+}
+
+.secondary-color {
+  background-color: #9fa8da !important;
+}
+
+.slight-color {
+  background-color: #d1d9ff !important;
+}
+
+.sdark-color {
+  background-color: #6f79a8 !important;
+}
+
+/*font*/
+
+.font-var {
+  font-variant: small-caps;
+}
+
+/* heigth and width */
+
+.vh-100 {
+  height: 100vh;
+}
+
+.vh-40 {
+  height: 40vh;
+}
+
+/* padding and margin */
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-container {
+  padding: 1rem;
+}
+
+/* ------------------- */
+
+nav .navbar-list .navbar-elements {
+  color: #fafafa;
+}
+
+.b-gradient {
+  background: linear-gradient(to bottom, rgba(193, 191, 234, 1) 0%, rgba(206, 199, 236, 1) 42%, rgba(216, 208, 239, 1) 54%, rgba(235, 233, 249, 1) 94%, rgba(235, 233, 249, 1) 100%);
+}
+
+/* media querie */
+
+@media only screen and (min-width :280px) {
+
+}
+
+@media only screen and (min-width:768px) {
+  .p-container {
+    padding: 4rem 2.5rem;
+  }
+}
